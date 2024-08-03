@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recyclerView100"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PuriVuriMenu">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/adlam_display"
+        android:gravity="center"
+        android:text="MENU"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#2196F3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/buono"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_foodstore"
+            android:drawableRight="@drawable/juice"
+            android:fontFamily="@font/actor"
+            android:text="Fruit-A-List"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/curries"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_foodstore"
+            android:drawableRight="@drawable/chocshake"
+            android:fontFamily="@font/actor"
+            android:text="Chocolate Factory"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/roti"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_foodstore"
+            android:drawableRight="@drawable/thickshake"
+            android:fontFamily="@font/actor"
+            android:text="Trispy Thickshakes"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/soup"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_foodstore"
+            android:drawableRight="@drawable/oreoshake"
+            android:fontFamily="@font/actor"
+            android:text="We R Oreons"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/idli"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_foodstore"
+            android:drawableRight="@drawable/bananashake"
+            android:fontFamily="@font/actor"
+            android:text="Ba..Ba..Banana"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/friedrice"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_foodstore"
+            android:drawableRight="@drawable/brownieshake"
+            android:fontFamily="@font/actor"
+            android:text="Brownie Bros"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/noodles"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_foodstore"
+            android:drawableRight="@drawable/frape"
+            android:fontFamily="@font/actor"
+            android:text="Whippy Frappes"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tandoori"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_foodstore"
+            android:drawableRight="@drawable/nutellaa"
+            android:fontFamily="@font/actor"
+            android:text="Nutella Ninjas"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/starters"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_foodstore"
+            android:drawableRight="@drawable/cookie"
+            android:fontFamily="@font/actor"
+            android:text="Healthy Crunches"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/shakes"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_foodstore"
+            android:drawableRight="@drawable/cakeshake"
+            android:fontFamily="@font/actor"
+            android:text="Cake Shakes"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/cake"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_foodstore"
+            android:drawableRight="@drawable/strawberryshake"
+            android:fontFamily="@font/actor"
+            android:text="Slushy Splash"
+            android:textSize="25sp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/food"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false"
+            app:lottie_rawRes="@raw/foodd"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+</LinearLayout>

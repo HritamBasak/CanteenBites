@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CanteenBites"
+        tools:targetApi="31">
+        <activity
+            android:name=".ShakersOreons"
+            android:exported="false" />
+        <activity
+            android:name=".Coffelassi"
+            android:exported="false" />
+        <activity
+            android:name=".Coffeecoldcoffee"
+            android:exported="false" />
+        <activity
+            android:name=".CoffeeColdmilk"
+            android:exported="false" />
+        <activity
+            android:name=".Coffeteq"
+            android:exported="false" />
+        <activity
+            android:name=".Coffemilk"
+            android:exported="false" />
+        <activity
+            android:name=".Coffecof"
+            android:exported="false" />
+        <activity
+            android:name=".Coffewaffles"
+            android:exported="false" />
+        <activity
+            android:name=".Coffeemuffin"
+            android:exported="false" />
+        <activity
+            android:name=".CoffeBrownie"
+            android:exported="false" />
+        <activity
+            android:name=".CoffeDonut"
+            android:exported="false" />
+        <activity
+            android:name=".CoffeCake"
+            android:exported="false" />
+        <activity
+            android:name=".CoffeeCupcake"
+            android:exported="false" />
+        <activity
+            android:name=".CoffeePuff"
+            android:exported="false" />
+        <activity
+            android:name=".CoffePastry"
+            android:exported="false" />
+        <activity
+            android:name=".CoffeShop"
+            android:exported="false" />
+        <activity
+            android:name=".IceCreamBakeryChocoaffair"
+            android:exported="false" />
+        <activity
+            android:name=".IceCreamBakerySeason"
+            android:exported="false" />
+        <activity
+            android:name=".IceCreamBakeryRoyal"
+            android:exported="false" />
+        <activity
+            android:name="Adapter5.AdapterRoyal"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".IceCreamBrownie"
+            android:exported="false" />
+        <activity
+            android:name=".IceCreamBakeryExtraAffair"
+            android:exported="false" />
+        <activity
+            android:name=".IceCreamBakeryToppings"
+            android:exported="false" />
+        <activity
+            android:name=".IceCreamBakerySundae"
+            android:exported="false" />
+        <activity
+            android:name=".IceCreamBakeryhotchoco"
+            android:exported="false" />
+        <activity
+            android:name=".IceCreamBakeryMenu"
+            android:exported="false" />
+        <activity
+            android:name=".ProtienSlushySplash"
+            android:exported="false" />
+        <activity
+            android:name=".ShakersSlushySplash"
+            android:exported="false"
+            android:theme="@style/Theme.CanteenBites" />
+        <activity
+            android:name=".ShakersCake"
+            android:exported="false" />
+        <activity
+            android:name=".ShakersProtien"
+            android:exported="false" />
+        <activity
+            android:name="Adapter4.AdapterProtienThickshakes"
+            android:exported="false" />
+        <activity
+            android:name=".ShakersNuts"
+            android:exported="false" />
+        <activity
+            android:name=".ShakersCrunches"
+            android:exported="false" />
+        <activity
+            android:name=".ShakersNutella"
+            android:exported="false" />
+        <activity
+            android:name=".ShakersFrappes"
+            android:exported="false" />
+        <activity
+            android:name=".ShakersBrownie"
+            android:exported="false" />
+        <activity
+            android:name=".Shakersbanana"
+            android:exported="false" />
+        <activity
+            android:name=".Shakerstrispy"
+            android:exported="false" />
+        <activity
+            android:name=".ShakersChocolate"
+            android:exported="false" />
+        <activity
+            android:name=".ShakersFruit"
+            android:exported="false" />
+        <activity
+            android:name=".ShakersMenu"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuBurmese"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuPopcorn"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuEggkulfi"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuBoba"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuThai"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuCornDog"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuOmlette"
+            android:exported="false" />
+        <activity
+            android:name="Adapter3.AdapterClassBreadOmlette"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuBowl"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuWaffle"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuGola"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuCoconut"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuJuice"
+            android:exported="false" />
+        <activity
+            android:name=".ZuzuMenu"
+            android:exported="false" />
+        <activity
+            android:name=".OasisShawarma"
+            android:exported="false" />
+        <activity
+            android:name=".OasisPasta"
+            android:exported="false" />
+        <activity
+            android:name=".OasisFranky"
+            android:exported="false" />
+        <activity
+            android:name=".OasisFries"
+            android:exported="false" />
+        <activity
+            android:name=".OasisToast"
+            android:exported="false" />
+        <activity
+            android:name=".OasisPanini"
+            android:exported="false" />
+        <activity
+            android:name=".OasisBread"
+            android:exported="false" />
+        <activity
+            android:name=".OasisSandwich"
+            android:exported="false" />
+        <activity
+            android:name=".OasisBurger"
+            android:exported="false" />
+        <activity
+            android:name=".OasisMenu"
+            android:exported="false" />
+        <activity
+            android:name=".OasisBuono"
+            android:exported="false" />
+        <activity
+            android:name=".PuriVuriSweets"
+            android:exported="false" />
+        <activity
+            android:name=".PuriVuriChole"
+            android:exported="false" />
+        <activity
+            android:name=".PuriVuriBhaji"
+            android:exported="false" />
+        <activity
+            android:name=".PuriVuridabeli"
+            android:exported="false" />
+        <activity
+            android:name=".PuriVuriMuri"
+            android:exported="false" />
+        <activity
+            android:name=".PuriVuriPav"
+            android:exported="false" />
+        <activity
+            android:name=".PuriVuriChaat"
+            android:exported="false" />
+        <activity
+            android:name=".PuriVuriDahi"
+            android:exported="false" />
+        <activity
+            android:name=".PuriVuriPuchka"
+            android:exported="false" />
+        <activity
+            android:name=".PuriVuriMenu"
+            android:exported="false" />
+        <activity
+            android:name=".BitsandBitesStarters"
+            android:exported="false" />
+        <activity
+            android:name=".BitsandBitesTandoori"
+            android:exported="false" />
+        <activity
+            android:name=".BitsandBitesNoodles"
+            android:exported="false" />
+        <activity
+            android:name=".BitsandBitesFriedRice"
+            android:exported="false" />
+        <activity
+            android:name=".BitsandBitesFriedRIce"
+            android:exported="false" />
+        <activity
+            android:name=".BitesandBitesFriedRIce"
+            android:exported="false" />
+        <activity
+            android:name=".BitsandBitesIdli"
+            android:exported="false" />
+        <activity
+            android:name=".BitsandBitesSoup"
+            android:exported="false" />
+        <activity
+            android:name=".BitsandBitesCurry"
+            android:exported="false" />
+        <activity
+            android:name=".BitsandBitesRoti"
+            android:exported="false" />
+        <activity
+            android:name=".BitsandBitesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BitsandBitesMenu"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreen2"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

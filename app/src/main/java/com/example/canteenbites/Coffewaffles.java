@@ -1,0 +1,45 @@
+package com.example.canteenbites;
+
+import android.annotation.SuppressLint;
+import android.os.Bundle;
+
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+
+import Adapter.AdapterClassSoup;
+import Model.ModelRecipeDosa;
+
+public class Coffewaffles extends AppCompatActivity {
+    RecyclerView recyclerView87;
+    @SuppressLint("MissingInflatedId")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_coffewaffles);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+        recyclerView87=findViewById(R.id.recyclerView87);
+        ArrayList<ModelRecipeDosa> list1=new ArrayList<>();
+        list1.add(new ModelRecipeDosa(R.drawable.chocwaffles,"Chocolate Waffle"));
+        list1.add(new ModelRecipeDosa(R.drawable.redvelvetwaffle,"Red Velvet Waffle"));
+        list1.add(new ModelRecipeDosa(R.drawable.belgwaffle,"Belgium Dark Chocolate Waffle"));
+        list1.add(new ModelRecipeDosa(R.drawable.nutellawaffle,"Nutella Waffle"));
+
+        AdapterClassSoup adapter= new AdapterClassSoup(Coffewaffles.this,list1);
+        recyclerView87.setAdapter(adapter);
+
+        GridLayoutManager gridLayoutManager=new GridLayoutManager(Coffewaffles.this,2);
+        recyclerView87.setLayoutManager(gridLayoutManager);
+    }
+}
